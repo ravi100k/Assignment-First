@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMW Portfolio</title>
+    <meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="../includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<!-- Custom CSS -->
+		<link href="../includes/css/portfolio-css.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
+
+  </head>
+
+
+  <body>
+    <div class="container" id="main">
+
+
+    <div class="navbar navbar-fixed-top">
+    <div class="container">
+    <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+
+    </button>
+    <a class="navbar-brand" href="#"><img src="../images/logo.jpg" alt="bmw logo" id="myLogo"></a>
+    <div class="nav-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">BMW Services <strong class="caret"></strong></a>
+          <ul class="dropdown-menu">
+            <li> <a href="#">BMW Service Center</a>
+            </li>
+            <li> <a href="#">BMW Car List</a>
+            </li>
+            <li> <a href="#">BMW Product </a>
+            </li>
+            <li class="divider">
+              
+            </li>
+            <li class="dropdown-header">Service divider</li>
+            <li> <a href="#">Car chesis assembly</a>
+            </li>
+            <li> <a href="#">Car body part assembly</a>
+            </li>
+            <li> <a href="#">Car Paint shop</a>
+            </li>
+          </ul><!--end dropdown menu-->
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li class="active">
+          <a href="portfolio.html">PortFolio</a>
+        </li>
+      </ul><!--end nav-->
+      <form class="navbar-form pull-left" action="index.html" method="post">
+        <input type="text" name="name" value="" class="form-control" placeholder="Search here" id="searchinput">
+        <button type="submit"  value="go!" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+      </form><!--end nav bar form-->
+
+      <ul class="nav navbar-nav pull-right">
+
+        <li class="dropdown">
+
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+            <span class="glyphicon glyphicon-user">
+
+            </span>My account <strong class="caret"></strong></a>
+            <ul class="dropdown-menu">
+
+              <li> <a href="#"><span class="glyphicon glyphicon-wrench"></span> Setting</a>
+              </li>
+              <li> <a href="#"><span class="glyphicon glyphicon-refresh"></span> Update profile</a>
+              </li>
+
+              <li> <a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+              </li>
+              <li class="divider"></li>
+              <li> <a href="#"><span class="glyphicon glyphicon-off"></span>  logout</a>
+              </li>
+            </ul>
+        </li><!--my account ends-->
+      </ul><!--end nav bar pull right-->
+
+    </div><!--end nav collapse-->
+    </div><!--container-->
+    </div><!--nav bar-->
+
+    <div class="row" id="features">
+      <div class="col-sm-4 feature">            <!--copy cols  start-->
+        <div class="pannel">
+          <div class="pannel-heading">
+            <h1 class="pannel-title">BMW 1 Serise</h1>
+          </div><!--end pannel heading-->
+    <img src="../images/1serise.jpg" alt="used cars" class="img-circle"/>
+<br>
+<br>
+    <a href="#myModal" target="_blank" class="btn btn-warning btn-block" data-toggle="modal">BMW 1 Serise</a>
+      <div class="modal fade" id="myModal">
+      	<div class="modal-dialog">
+      		<div class="modal-content">
+      			<div class="modal-header">
+      				<button class="close" data-dismiss="modal">&times;</button>
+
+      				<h4 class="modal-title">A Modal Window</h4>
+      			</div><!-- end modal-header -->
+      			<div class="modal-body">
+      				<h4>Text in a modal</h4>
+
+      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+      				<h4>Popovers in a modal</h4>
+      				<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+
+      				<h4>Tooltips in a modal</h4>
+      				<a href="# " data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>
+
+      				<hr>
+
+      				<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+
+      				<form class="form-horizontal">
+      					<div class="form-group">
+      						<label class="col-lg-2 control-label" for="inputName">Name</label>
+      						<div class="col-lg-10">
+      							<input class="form-control" id="inputName" placeholder="Name" type="text">
+      						</div>
+      					</div>
+
+      					<div class="form-group">
+      						<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+      						<div class="col-lg-10">
+      							<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+      						</div>
+      					</div>
+
+      					<div class="form-group">
+      						<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+      						<div class="col-lg-10">
+      							<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+      							<button class="btn btn-success pull-right" type="submit">Send!</button>
+      						</div>
+      					</div>
+      				</form>
+      			</div><!-- end modal-body -->
+
+      			<div class="modal-footer">
+      				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+      			</div><!-- end modal-footer -->
+      		</div><!-- end modal-content -->
+      	</div><!-- end modal-dialog -->
+      </div><!-- end myModal -->
+
+
+        </div><!--end pannel-->                  <!--copy ends -->
+        </div><!-- end feature -->
+
+
+
+        <div class="col-sm-4 feature">
+        <div class="pannel">
+          <div class="pannel-heading">
+            <h1 class="pannel-title">BMW X 1</h1>
+          </div><!--end pannel heading-->
+      <img src="../images/bmwx1.jpg" alt="bespoke"  class="img-circle"/>
+      <br>
+      <br>
+      <a href="#" target="_blank" class="btn btn-danger btn-block">BMW X1 Serise</a>
+        </div><!--end pannel-->
+          </div><!-- end feature -->
+
+          <div class="col-sm-4 feature">
+          <div class="pannel">
+            <div class="pannel-heading">
+              <h1 class="pannel-title">BMW 3 Serise</h1>
+            </div><!--end pannel heading-->
+        <img src="../images/pf-03.jpg" alt="bespoke"  class="img-circle"/>
+        <br>
+        <br>
+        <a href="#" target="_blank" class="btn btn-danger btn-block">BMW 3 Serise</a>
+          </div><!--end pannel-->
+            </div><!-- end feature -->
+
+            <div class="col-sm-4 feature">
+            <div class="pannel">
+              <div class="pannel-heading">
+                <h1 class="pannel-title">BMW 3 Serise GT</h1>
+              </div><!--end pannel heading-->
+          <img src="../images/pf-04.jpg" alt="bespoke"  class="img-circle"/>
+          <br>
+          <br>
+          <a href="#" target="_blank" class="btn btn-danger btn-block">BMW 3 Serise GT</a>
+            </div><!--end pannel-->
+              </div><!-- end feature -->
+
+
+
+              <div class="col-sm-4 feature">
+              <div class="pannel">
+                <div class="pannel-heading">
+                  <h1 class="pannel-title">BMW X3</h1>
+                </div><!--end pannel heading-->
+            <img src="../images/pf-05.jpg" alt="bespoke"  class="img-circle"/>
+            <br>
+            <br>
+            <a href="#" target="_blank" class="btn btn-danger btn-block">BMW X3</a>
+              </div><!--end pannel-->
+                </div><!-- end feature -->
+
+                <div class="col-sm-4 feature">
+                <div class="pannel">
+                  <div class="pannel-heading">
+                    <h1 class="pannel-title">BMW 5th Serise</h1>
+                  </div><!--end pannel heading-->
+              <img src="../images/pf-07.jpg" alt="bespoke"  class="img-circle"/>
+              <br>
+              <br>
+              <a href="#" target="_blank" class="btn btn-danger btn-block">BMW 5th Serise</a>
+                </div><!--end pannel-->
+                  </div><!-- end feature -->
+
+        <div class="col-sm-4 feature">
+        <div class="pannel">
+          <div class="pannel-heading">
+            <h1 class="pannel-title">BMW V4 Serise</h1>
+          </div><!--end pannel heading-->
+      <img src="../images/pf-08.jpg" alt="bespoke"  class="img-circle"/>
+      <br>
+      <br>
+      <a href="#" target="_blank" class="btn btn-danger btn-block">BMW V4 Serise</a>
+        </div><!--end pannel-->
+          </div><!-- end feature -->
+
+
+
+          <div class="col-sm-4 feature">
+          <div class="pannel">
+            <div class="pannel-heading">
+              <h1 class="pannel-title">BMW V8 Engine</h1>
+            </div><!--end pannel heading-->
+        <img src="../images/pf-10.jpg" alt="bespoke"  class="img-circle"/>
+        <br>
+        <br>
+        <a href="#" target="_blank" class="btn btn-danger btn-block">BMW V8 Engine</a>
+          </div><!--end pannel-->
+            </div><!-- end feature -->
+
+            <div class="col-sm-4 feature">
+            <div class="pannel">
+              <div class="pannel-heading">
+                <h1 class="pannel-title">BMW V6 Engine</h1>
+              </div><!--end pannel heading-->
+          <img src="../images/pf-09.jpg" alt="v6"  class="img-circle"/>
+          <br>
+          <br>
+          <a href="#" target="_blank" class="btn btn-danger btn-block">BMW V6 Engine</a>
+            </div><!--end pannel-->
+              </div><!-- end feature -->
+
+
+
+    <footer>
+  <div class="container-fluid">
+  <div class="row">
+  	<div class="col-sm-2">
+  		<h6>copyright &copy; 2016 www.ravi.com</h6>
+  	</div><!--end cols sm-2-->
+
+  	<div class="col-sm-4">
+  					<h6>About Us</h6>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  				</div><!-- end col-sm-4 -->
+
+  				<div class="col-sm-2">
+  			<h6>Navigation</h6>
+  			<ul class="unstyled">
+  				<li><a href="#">Home</a></li>
+  				<li><a href="#">Services</a></li>
+  				<li><a href="#">Links</a></li>
+  				<li><a href="#">Contact</a></li>
+  			</ul>
+  		</div><!-- end col-sm-2 -->
+
+  		<div class="col-sm-2">
+  						<h6>Follow Us</h6>
+  						<ul class="unstyled">
+  							<li><a href="#"><span class="fa fa-facebook-square" aria-hidden="true"><b>Facebook</b></span></a></li>
+  							<li><a href="#"><span class="fa fa-twitter-square" aria-hidden="true"><b>Twitter</b></span></a></li>
+  							<li><a href="#"><span class="fa fa-google-plus-square" aria-hidden="true"></span><b>Google Plus</b></a></li>
+  						</ul>
+  					</div><!-- end col-sm-2 -->
+  					<div class="col-sm-2">
+  				<h6>Coded with <span class="glyphicon glyphicon-heart"></span>by Ravi</h6>
+  			</div><!-- end col-sm-2 -->
+
+  </div><!--end row-->
+  </div><!--end container-->
+    </footer>
+
+<!-- First try for the online version of jQuery-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+  <!-- Bootstrap JS -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="../includes/js/script.js"></script>
+
+  </body>
+</html>
